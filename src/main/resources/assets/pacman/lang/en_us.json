@@ -1,0 +1,5 @@
+{
+  "item.pacman.pacman_spawn_egg": "Spawn Pacman",
+  "block.pacman.pacman_away_block": "Pacman Away",
+  "entity.packman.pacman": "Pacman"
+}
