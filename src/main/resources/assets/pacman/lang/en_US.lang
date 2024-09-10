@@ -1,0 +1,3 @@
+entity.pacman.Pacman.name=Pacman
+entity.Pacman.name=Pacman
+tile.PacmanAwayBlock.name=Pacman-Away
