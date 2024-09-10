@@ -1,4 +1,20 @@
 {
-    "mob.pacman.chomp": {"category": "hostile", "sounds": ["pacman_chomp"]},
-    "mob.pacman.death": {"category": "hostile", "sounds": ["pacman_death"]}
+    "pacman_chomp": {
+        "category": "hostile",
+        "sounds": [
+            {
+                "name": "pacman:pacman_chomp",
+                "stream": false
+            }
+        ]
+    },
+    "pacman_death": {
+        "category": "hostile",
+        "sounds": [
+            {
+                "name": "pacman:pacman_death",
+                "stream": false
+            }
+        ]
+    }
 }
