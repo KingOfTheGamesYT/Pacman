@@ -1,0 +1,49 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="All rights reserved"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/Pacman/issues"
+
+[[mods]]
+
+modId="pacman"
+
+version="7.1.2"
+
+displayName="Pacman"
+
+displayURL="https://www.curseforge.com/minecraft/mc-mods/pacman"
+
+logoFile="pacmanmod.png"
+
+credits="Thanks for this mod goes to Fiskfille for making the 1.7.10 version"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''Brings Pacman to Minecraft'''
+
+# Base Forge
+[[dependencies.pacman]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.pacman]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"
+
+# Rises the limit for health, without it the mobs with above 512 health will have 512 health
+[[dependencies.pacman]]
+    modId="attributefix"
+    mandatory=false
+    versionRange="[10.1.4,)"
+    ordering="NONE"
+    side="BOTH"
