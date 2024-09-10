@@ -1,0 +1,4 @@
+{
+    "mob.pacman.chomp": {"category": "hostile", "sounds": ["pacman_chomp"]},
+    "mob.pacman.death": {"category": "hostile", "sounds": ["pacman_death"]}
+}
